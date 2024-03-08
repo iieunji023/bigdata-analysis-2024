@@ -30,7 +30,7 @@
 데이터 분석을 위한 라이브러리 학습부터 시작
 - Pandas : 데이터 처리 라이브러리
 - Numpy : 수치해석, 계산용 라이브러리
-- Excel, CSV용 라이브러리 : 엑셀, CSV, JSON 문서 데이터 로드, 저장 라이브러리
+- Eopenpyxl : 엑셀,CSV,JSON 문서 데이터 로드,저장 라이브러리
 - Selenium : 웹 크롤링 자동화 라이브러리
 - BeautifulSoup : 웹 데이터를 정제 라이브러리
 - Matplot.lib : 차트 표현 라이브러리
@@ -45,7 +45,9 @@
 ##### Pandas 학습
 데이터 분석(로딩, 처리..) 라이브러리
 
-1. Pandas 자료구조[참고자료](https://velog.io/@euisuk-chung/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%8B%9C%EA%B0%81%ED%99%94-%EB%A7%88%EC%8A%A4%ED%84%B0%ED%95%98%EA%B8%B0-Pandas)
+![자료구조](https://github.com/iieunji023/bigdata-analysis-2024/main/images/ba001.png)
+
+1. Pandas 자료구조 [참고자료](https://velog.io/@euisuk-chung/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%8B%9C%EA%B0%81%ED%99%94-%EB%A7%88%EC%8A%A4%ED%84%B0%ED%95%98%EA%B8%B0-Pandas)
     - 데이터프레임, 시리즈
     - [데이터프레임 사용법](https://github.com/iieunji023/bigdata-analysis-2024/blob/main/day01/day01_pandas_basic.ipynb)
     - 데이터 통합
