@@ -14,7 +14,7 @@
 - 기술통계, 기존방식의 분석 사용
 - 회귀분석, 기존의 데이터만으로 선형회귀를 도출
 
-    ![회귀분석시각화](https://raw.githubusercontent.com/ChnagHyun/bigdata-analysis-2024/main/images/ba012.png)
+    ![회귀분석시각화](https://raw.githubusercontent.com/iieunji023/bigdata-analysis-2024/main/images/ba012.png)
 
 ##### 타이타닉 생존자 분석
 - seaborn 모듈 내 샘플데이터 셋
@@ -23,4 +23,4 @@
 - 0.5 ~ 0.9의 결과가 나오는 변수들끼리 재분석
 - 결측치 검색, 제거
 
-    ![상관분석히트맵](https://raw.githubusercontent.com/ChnagHyun/bigdata-analysis-2024/main/images/ba014.png)
+    ![상관분석히트맵](https://raw.githubusercontent.com/iieunji023/bigdata-analysis-2024/main/images/ba014.png)

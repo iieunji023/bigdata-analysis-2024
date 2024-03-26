@@ -7,7 +7,7 @@
 - 지도 시각화
     - 카카오 API 사용, https://developers.kakao.com/
 
-    ![마커클러스터](https://raw.githubusercontent.com/ChnagHyun/bigdata-analysis-2024/main/images/ba009.png)
+    ![마커클러스터](https://raw.githubusercontent.com/iieunji023/bigdata-analysis-2024/main/images/ba009.png)
 
 ##### 스타벅스 입지 분석
 - 웹크롤링, 데이터 수집, 지도 시각화, 분석
