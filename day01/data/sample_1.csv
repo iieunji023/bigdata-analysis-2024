@@ -1,10 +1,34 @@
-2019년 11월 입국객 수,,,
-국적코드,성별,입국객수,전년동기
-A01,남성,106320,85815
-A01,여성,191436,125241
-A31,남성,319,299
-A31,여성,42,54
-A18,남성,158912,124486
-A18,여성,232943,163466
-총 합계 ,689972,,
-전년동기,499361,,
+## 마커 클러스터
+mapLocs = []
+mapNames = []
+
+for i in range(len(locationDataFinal)):
+    data = locationDataFinal.iloc[i]
+    mapLocs.append((float(data['위도']), float(data['경도'])))
+    mapNames.append(data['실제이름'])
+    
+locHanlaMt = [33.362050, 126.530087]
+map = folium.Map(location=locHanlaMt, zoom_start=11)
+
+markerCluster = MarkerCluster(locations=mapLocs, popups=mapNames, name='제주 핫플레이스', overlay=True, control=True)
+markerCluster.add_to(map)
+folium.LayerControl().add_to(map)
+map
+
+## 마커 클러스터
+mapLocs = []
+mapNames = []
+
+for i in range(len(locationDataFinal)): # 709번 반복
+    data = locationDataFinal.iloc[i]    # 행 하나씩 읽어옴
+    mapLocs.append((float(data['위도']), float(data['경도'])))
+    mapNames.append(data['실제이름'])
+
+locHanlaMt = [33.362050, 126.530087]
+map = folium.Map(location=locHanlaMt, zoom_start=11, tiles='OpenStreetMap')
+
+markerCluster = MarkerCluster(location=mapLocs, popups=mapNames, name='제주 핫플레이스', overlay=True, control=True)
+markerCluster.add_to(map)
+folium.LayerControl().add_to(map)
+    
+map
